@@ -1,0 +1,193 @@
+html{
+  background-color: #2d6c53;
+}
+.nav{
+  background-color: #012518;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav h1{
+  color: #b50303;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 1480px) {
+  .nav h1{
+    font-size: 4rem;
+  }
+  .nav ul{
+    font-size:larger;
+    font-weight: bolder;
+  }
+  .nav ul li{
+    margin-bottom: .4rem;
+  }
+  .nav ul li .all{
+    color: #1e9b02;
+    padding-bottom: 1.5rem ;
+  }
+  .nav .all:hover{
+    color: #7e2929;
+  }
+  .nav .new{
+    color: #1e9b02;
+  }
+  .nav .new:hover{
+    color: #7e2929;
+  }
+  .allQuotes h1{
+    color: rgb(114, 161, 202);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.7rem;
+  }
+  .quote{
+    margin: 2.5rem 2rem;
+  }
+  .quote .quote-text span{
+    color: rgb(91, 189, 178);
+    font-style: italic;
+  }
+  .quote .quote-text h2{
+    color: rgb(240, 232, 217);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+  }
+  .quote .quote-text h3{
+    color: rgb(41, 29, 5);
+  }
+  .quote button{
+    background-color: rgb(40, 181, 5);
+
+    color: rgb(41, 29, 5);
+    outline: none !important;
+    border-radius: 10px;
+    padding: .1rem .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .quote button:hover{
+    background-color: rgb(140, 196, 126);
+  }
+  .separate{
+    padding-top: 4rem;
+    height: 100vh;
+  }
+  .separate h2{
+    color: rgb(240, 232, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0rem 2rem 2rem;
+  }
+  .separate p{
+    font-style: italic;
+    font-size: x-large;
+    color: rgb(41, 29, 5);
+  }
+  
+  .newQuote .quoteBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .newQuote .inpt{
+    font-size: 2rem;
+    justify-content: center !important; 
+    align-items: center;
+    margin-right: 1rem;
+    color: rgb(25, 17, 1);
+
+  }
+
+  .newQuote .quoteBox textarea::placeholder{
+    text-align: center;
+  }
+  .newQuote .quoteBox textarea{
+    border-radius: 30px;
+    padding-top: 1rem;
+  }
+  .newQuote input{
+    border-radius: 30px;
+    padding: .5rem;
+    text-align: center;
+  }
+  .newQuote .authorBox{
+    margin-bottom: 1rem;
+  }
+  .newQuote button{
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    padding: .2rem;
+    border-radius: 10px;
+    background-color: rgb(26, 108, 5);
+    cursor: pointer;
+    border: 1px solid rgb(226, 161, 161);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger; 
+  }
+  .newQuote button:hover{
+    background-color: rgb(92, 187, 91);
+  }
+}
+
+
+@media (max-width: 853px) {
+  .nav h1{
+    font-size: 2.8rem;
+  }
+  
+  .quote{
+    margin: 2.5rem 1.5rem;
+  }
+  
+  .quote .quote-text h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+  }
+
+  .separate h2{
+    padding: 0rem 1rem 2rem;
+  }
+
+  .newQuote button{
+    font-size:medium;
+  }
+}
+
+@media (max-width:600px){
+  .nav h1{
+    font-size: 1.9rem;
+  }
+
+  .newQuote .inpt{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav h1{
+    font-size: 1.6rem;
+  }
+}
+
+
+
+.main{
+  background-color: #687d25 !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
