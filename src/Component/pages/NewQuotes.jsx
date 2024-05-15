@@ -18,7 +18,7 @@ function NewQuotes() {
           author,
           text
         })
-        nevigate('/')
+        nevigate('/all')
     }catch (e) {
       console.log("can't create quote");
     }

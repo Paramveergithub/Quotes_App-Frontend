@@ -1,3 +1,3 @@
-export const baseUrl = `https://quotes-app-34pl.onrender.com`
+export const baseUrl = `https://quotes-app-backend.onrender.com`
 
 

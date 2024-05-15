@@ -5,7 +5,7 @@ import '../../App.css';
 function MainNavigation() {
   return (
     <nav className='nav'>
-      <h1>🔥Great Quotes Collection🔥</h1>
+      <h1>🔥Great Quotes's Collection🔥</h1>
       <ul>
         <li>
              <Link to="/all" className='all'>All Quotes</Link>

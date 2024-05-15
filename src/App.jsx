@@ -13,6 +13,7 @@ function App() {
 
       <main className='main'>
         <Routes>
+          <Route path='/' element={<AllQuotes />}/>
           <Route path='/all' element={<AllQuotes />}/>
           <Route path='/new' element={<NewQuotes />}/>
           <Route path='/quotes/:id' element={<ShowQuote />}/>
